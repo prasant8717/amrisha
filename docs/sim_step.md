@@ -7,6 +7,6 @@
     pip install vpython
 
 ## Clone the repo
-    git clone https:/github.com/prasant8717/amrisha.git
+    git clone https://github.com/prasant8717/amrisha.git
     cd amrisha/sim
     python demo.py
