@@ -6,6 +6,7 @@
 ## System Requirement
     pip install vpython
     pip install matplotlib imageio
+    pip install moviepy pillow opencv-python numpy requests
 
 ## Clone the repo
     git clone https://github.com/prasant8717/amrisha.git
