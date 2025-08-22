@@ -1,5 +1,5 @@
 # amrisha
-    It is a quantum sensor based wrist band to detect, monitor, or mitigate venom effects and optionally inject antidote.
+    It is a quantum sensor based wrist band to detect, monitor, or mitigate venom effects and inject antidote.
     
     Concept : Smart Band + Quantum Sensor + Auto-Injector:
         Detects venom signature via quantum biosensor.

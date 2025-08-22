@@ -1,15 +1,17 @@
+# generate_narration.py
 from gtts import gTTS
 
-text = """
-A venomous snake strikes...
-venom spreads rapidly through the bloodstream...
-But Amrisha is ready.
-The wearable device detects the bite instantly... activating advanced quantum sensors.
-Within seconds... therapeutic pulses neutralize venom molecules at the source.
-Life is saved — without delay.
-Amrisha... the future of universal antivenom.
-"""
-
+text = (
+"A venomous strike. "
+"Poison begins spreading silently through the bloodstream. "
+"But Amrisha is ready. "
+"The smart, non-invasive wearable detects physiological signs of poisoning. "
+"Amrisha deploys nanodiamonds into the bloodstream… "
+"Using quantum sensing, they identify the exact toxin. "
+"Then, a tailored antidote is delivered from the internal reservoir. "
+"Venom neutralized. Life preserved. "
+"Amrisha — smart. Quantum. Life-saving."
+)
 tts = gTTS(text=text, lang="en", slow=True)
-tts.save("amrisha.wav")
-print("Narration audio saved as amrisha.wav")
+tts.save("narration.wav")
+print("Saved narration.wav")
